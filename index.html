@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="icon" href="assets/img/logo.png">
+    <title>Starbucks</title>
+</head>
+<body>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    <header class="header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Starbucks Logo"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+                    <li><i class='bx bxs-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">It's not just coffee</h2>
+                    <h1 class="home__title"><span>It's</span> Starbucks</h1>
+                    <p class="home__paragraph">Where every sip tells a story.</p>
+                </div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/img1.png" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="assets/img/img2.png" alt="Image 2"></div>
+                        <div class="swiper-slide"><img src="assets/img/img3.png" alt="Image 3"></div>
+                        <div class="swiper-slide"><img src="assets/img/img4.png" alt="Image 4"></div>
+                        <div class="swiper-slide"><img src="assets/img/img5.png" alt="Image 5"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">Expect More Than Coffee</h2>
+                    <p class="about__description">We’re not just passionate providers of coffee, but everything else that goes with a full and rewarding coffeehouse experience. We also offer a selection of premium teas, fine pastries and other delectable treats to please the taste buds. And the music you hear in store is chosen for its artistry and appeal.<br>It’s not unusual to see people coming to Starbucks to chat, meet up or even work. We’re a neighborhood gathering place, a part of the daily routine and we couldn’t be happier about it.</p>
+                    <a href="https://www.starbucks.co.id/about-us/our-heritage" class="button">See Our Heritage</a>
+                </div>
+                <img src="https://katv.com/resources/media/10350b06-ad42-476c-b387-751642026441-large1x1_Starbucks.png" alt="About Starbucks" class="about__img">
+            </div>
+        </section>
+
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Services</span>
+            <h2 class="section-title">Our Services</h2>
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <img src="assets/img/coffee.png" alt="Excellent Coffee" class="services__img">
+                    <h3 class="services__title">Excellent Coffee</h3>
+                    <p class="services__description">The coffee roasts that we offer are those that best reflect the rich coffee flavor and aroma of your local Starbucks.</p>
+                </div>
+                <div class="services__content">
+                    <img src="assets/img/gift-card.png" alt="Gift Cards" class="services__img">
+                    <h3 class="services__title">Gift Cards</h3>
+                    <p class="services__description">A Starbucks Gift Card is a convenient way to pay and earn stars toward rewards. This online gift card is a great gift for coffee lovers.</p>
+                </div>
+                <div class="services__content">
+                    <img src="assets/img/delivery.png" alt="Delivery" class="services__img">
+                    <h3 class="services__title">Delivery</h3>
+                    <p class="services__description">Order and Pick up as easy as that. Brighten your day with a Starbucks® delivery on various delivery services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle">Menu Specials</span>
+            <h2 class="section-title">These are the most popular among our customers</h2>
+            <div class="menu__container bd-grid">
+                <div class="menu__content">
+                    <img src="assets/img/b1.png" alt="Iced Blonde Vanilla Latte" class="menu__img">
+                    <h3 class="menu__name">Iced Blonde Vanilla Latte</h3>
+                    <span class="menu__detail">Seriously smooth and subtly sweet Starbucks® Blonde Espresso, milk, ice and vanilla syrup come together to create a delightful twist on a beloved espresso classic.</span>
+                    <span class="menu__preci">₱160 - ₱190</span>
+                    <a href="https://www.starbucks.com/menu/product/2122164/iced" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b2.png" alt="Iced White Chocolate Mocha" class="menu__img">
+                    <h3 class="menu__name">Iced White Chocolate Mocha</h3>
+                    <span class="menu__detail">Our signature espresso meets white chocolate sauce, milk and ice, and then is finished off with sweetened whipped cream to create this supreme white chocolate delight.</span>
+                    <span class="menu__preci">₱185 - ₱215</span>
+                    <a href="https://www.starbucks.com/menu/product/420/iced" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b3.png" alt="Pumpkin Spice Latte" class="menu__img">
+                    <h3 class="menu__name">Pumpkin Spice Latte</h3>
+                    <span class="menu__detail">Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin pie spices.</span>
+                    <span class="menu__preci">₱175 - ₱205</span>
+                    <a href="https://www.starbucks.com/menu/product/418/hot?parent=%2Fdrinks%2Fhot-coffees%2Flattes" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b4.png" alt="Java Chip Frappuccino" class="menu__img">
+                    <h3 class="menu__name">Java Chip Frappuccino</h3>
+                    <span class="menu__detail">We blend mocha sauce and Frappuccino® chips with coffee, milk and ice, then top it off with whipped cream and a mocha drizzle to bring you endless java joy.</span>
+                    <span class="menu__preci">₱195 - ₱225</span>
+                    <a href="https://www.starbucks.com/menu/product/425/iced" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b5.png" alt="Hot Chocolate" class="menu__img">
+                    <h3 class="menu__name">Hot Chocolate</h3>
+                    <span class="menu__detail">Steamed milk and mocha sauce topped with sweetened whipped cream and a chocolate-flavored drizzle. A timeless classic made to sweeten your spirits.</span>
+                    <span class="menu__preci">₱170 - ₱200</span>
+                    <a href="https://www.starbucks.com/menu/product/471/hot" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b6.png" alt="Chai Tea Latte" class="menu__img">
+                    <h3 class="menu__name">Chai Tea Latte</h3>
+                    <span class="menu__detail">Black tea infused with cinnamon, clove and other warming spices is combined with steamed milk and topped with foam for the perfect balance of sweet and spicy. An iconic chai cup.</span>
+                    <span class="menu__preci">₱160 - ₱190</span>
+                    <a href="https://www.starbucks.com/menu/product/466/hot" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b7.png" alt="Chocolate Cookie Crumble Crème Frappuccino" class="menu__img">
+                    <h3 class="menu__name">Chocolate Cookie Crumble Crème Frappuccino</h3>
+                    <span class="menu__detail">Mocha sauce and Frappuccino® chips are blended with milk and ice, layered on top of whipped cream and chocolate cookie crumble and topped with vanilla whipped cream, mocha drizzle and even more chocolate cookie crumble.</span>
+                    <span class="menu__preci">₱195 - ₱225</span>
+                    <a href="https://www.starbucks.com/menu/product/957/iced" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/b8.png" alt="White Chocolate Crème Frappuccino" class="menu__img">
+                    <h3 class="menu__name">White Chocolate Crème Frappuccino</h3>
+                    <span class="menu__detail">A smooth blend of white chocolate sauce, milk and ice topped with whipped cream for a remarkable flavor that surprisingly wows.</span>
+                    <span class="menu__preci">₱195 - ₱225</span>
+                    <a href="https://www.starbucks.com/menu/product/441/iced" class="button menu__button"><i class='bx bxs-cart-add'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial">App</span>
+                    <h2 class="section-title app__initial">See More Through Our Official App</h2>
+                    <p class="app__description">Find our application and download it either through App Store or Google Play, you can make orders, see your deliveries on the way and much more.</p>
+                    <div class="app__stores">
+                        <a href="https://apps.apple.com/us/app/starbucks/id331177714"><img src="assets/img/app1.png" alt="App Store"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.starbucks.ph&hl=en"><img src="assets/img/app2.png" alt="Google Play"></a>
+                    </div>
+                </div>
+                <img src="assets/img/mobile-app.png" alt="Mobile App" class="app__img">
+            </div>
+        </section>
+
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Get In Touch</span>
+                    <h2 class="section-title contact__initial">Contact Us</h2>
+                    <p class="contact__description">Contact Us for more information and we will attend you quickly.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="contact-box">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2>Contact Us</h2>
+                        <form id="contact-form">
+                            <input type="text" id="name" class="field" placeholder="Your Name" required>
+                            <input type="email" id="email" class="field" placeholder="Your Email" required>
+                            <input type="tel" id="phone" class="field" placeholder="Phone" required>
+                            <textarea id="message" placeholder="Your Message..." class="field" required></textarea>
+                            <button type="submit" class="btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <div id="popup" class="popup"></div>
+        
+        
+        
+    </main>
+
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+                <ul>
+                    <li><a href="https://www.starbucks.com/about-us/" class="footer__link">Our Heritage</a></li>
+                    <li><a href="https://www.starbucks.com/coffee/" class="footer__link">Our Coffee</a></li>
+                    <li><a href="https://stories.starbucks.com" class="footer__link">Stories and News</a></li>
+                    <li><a href="https://starbucks.ph/customer-service" class="footer__link">Customer Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="https://www.starbucks.com/contact/" class="footer__link">Contact Us</a></li>
+                    <li><a href="https://www.starbucks.com/terms/privacy-notice/" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="https://www.starbucks.com/terms/starbucks-terms-of-use/" class="footer__link">Terms of Use</a></li>
+                    <li><a href="https://stories.starbucks.com/emea/contact/" class="footer__link">Submit Your Idea</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Order and Pickup</h3>
+                <ul>
+                    <li>Order on App</li>
+                    <li>Delivery</li>
+                    <li>Order and Pickup Options</li>
+                    <li>Explore and Find Coffee for Home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__social-links">
+            <a href="https://www.facebook.com/StarbucksPhilippines/" class="footer__social"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/starbucks/?hl=en" class="footer__social"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/starbucks?lang=en" class="footer__social"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.starbucksbenefits.com/en-us/home/company-perks/spotify-premium-subscription/" class="footer__social"><i class='bx bxl-spotify'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2024 Derrick Quinto. All rights reserved.<br>&#169; 2024 Starbucks Coffee Company. All images rights reserved</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contact-form');
+            const popup = document.getElementById('popup');
+    
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+    
+          
+                if (validateForm()) {
+                  
+                    showPopup('Thank you for contacting us!');
+                   
+                }
+            });
+    
+            function validateForm() {
+                const name = document.getElementById('name').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const phone = document.getElementById('phone').value.trim();
+                const message = document.getElementById('message').value.trim();
+    
+                if (name === '' || email === '' || phone === '' || message === '') {
+                    showPopup('Please fill in all fields.');
+                    return false;
+                }
+    
+                
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(email)) {
+                    showPopup('Please enter a valid email address.');
+                    return false;
+                }
+    
+                
+                const phonePattern = /^\d{10}$/;
+                if (!phonePattern.test(phone)) {
+                    showPopup('Please enter a valid phone number (10 digits only).');
+                    return false;
+                }
+    
+                return true; 
+            }
+    
+            function showPopup(message) {
+                popup.innerHTML = `<p class="popup-message">${message}</p>`;
+                popup.classList.add('show');
+    
+                
+                setTimeout(function () {
+                    popup.classList.remove('show');
+                }, 3000);
+            }
+        });
+    </script>
+
+    <script src="assets/js/scrollreveal.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
